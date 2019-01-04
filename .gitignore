@@ -1,0 +1,20 @@
+.idea/
+__pycache__/
+
+# images
+*.jpg
+*.png
+
+# models
+models/facenet/*
+!models/facenet/.gitkeep
+models/gait/*
+!models/gait/.gitkeep
+models/reid/*
+!models/reid/.gitkeep
+models/yolo3/*
+!models/yolo3/.gitkeep
+
+# backup files
+*bak*
+
